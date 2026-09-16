@@ -1,0 +1,20 @@
+HOW TO RUN — Rojam Boutique Online Clothing Management System
+
+Requirements:
+- XAMPP (Apache + MySQL)
+
+Steps:
+1. Start XAMPP and turn on Apache and MySQL.
+2. Copy the "rojam" project folder into: /Applications/XAMPP/xamppfiles/htdocs/
+   (On Windows: C:\xampp\htdocs\)
+3. Open phpMyAdmin at http://localhost/phpmyadmin
+4. Create a database named: rojam_boutique
+5. Select it, click Import, choose sql/rojam_boutique.sql (or sql/schema.sql), and run it.
+6. Open the site at: http://localhost/rojam/
+
+Admin login (demo):
+   Email:    admin@rojam.test
+   Password: admin123
+
+Note: The database connection settings are in config/db.php
+(default XAMPP: user "root", no password).
